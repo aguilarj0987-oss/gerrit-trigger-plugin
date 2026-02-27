@@ -3,13 +3,13 @@
     <groupId>com.sonyericsson.hudson.plugins.gerrit</groupId>
     <artifactId>gerrit-events</artifactId>
     <packaging>jar</packaging>
-    <version>1.99.1-SNAPSHOT</version> <!-- Bumps to 2.0 as soon as extraction is possible-->
+    <version>1.99.2-SNAPSHOT</version> <!-- Bumps to 2.0 as soon as extraction is possible-->
     <name>Gerrit Events</name>
 
     <parent>
         <groupId>com.sonyericsson.hudson.plugins.gerrit</groupId>
         <artifactId>gerrit-trigger-parent</artifactId>
-        <version>1.8.10-SNAPSHOT</version>
+        <version>1.8.11-SNAPSHOT</version>
     </parent>
 
     <properties>
@@ -184,7 +184,7 @@
                     <dependency>
                         <groupId>com.sonyericsson.hudson.plugins.gerrit</groupId>
                         <artifactId>build-config</artifactId>
-                        <version>1.3.7-SNAPSHOT</version>
+                        <version>1.3.8-SNAPSHOT</version>
                     </dependency>
                 </dependencies>
                 <executions>
